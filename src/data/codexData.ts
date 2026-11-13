@@ -21,12 +21,12 @@ export interface CoinCheck {
   notes?: string[];
 }
 
-export const CODEX_CONTRACT = '0xff9e86e6b21fd688027981bee4b64c8b6b804ed3';
-export const CODEX_CONTRACT_SHORT = '0xff9e…4ed3';
+export const CODEX_CONTRACT = 'TBD';
+export const CODEX_CONTRACT_SHORT = 'TBD';
 export const CODEX_LAUNCH_WALLET = '0x5388872a6bbb5fd94533a4dab2a7a1cab02fa5bc';
 export const CODEX_LAUNCH_WALLET_SHORT = '0x5388…a5Bc';
-export const CODEX_X_URL = 'https://x.com/codex';
-export const CODEX_X_HANDLE = '@codex';
+export const CODEX_X_URL = 'https://x.com/CodexFi_';
+export const CODEX_X_HANDLE = '@CodexFi_';
 export const CODEX_LOGO_SRC = '/assets/aistudio/image_da275fff.png';
 
 export const LATEST_CHECKS: CoinCheck[] = [

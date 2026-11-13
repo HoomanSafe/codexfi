@@ -324,7 +324,7 @@ export const Shell: React.FC<ShellProps> = ({ currentPath, onNavigate, children 
                 href={CODEX_X_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="CODEX on X (@codex)"
+                aria-label={`CODEX on X (${CODEX_X_HANDLE})`}
               >
                 <Globe className="sb-ico" />
                 <span className="sb-label">{CODEX_X_HANDLE}</span>
@@ -610,10 +610,10 @@ export const Shell: React.FC<ShellProps> = ({ currentPath, onNavigate, children 
           <nav className="foot-col" aria-label="Elsewhere">
             <span className="foot-k">Elsewhere</span>
             <a href={CODEX_X_URL} target="_blank" rel="noopener noreferrer">
-              @codex on X
+              {CODEX_X_HANDLE} on X
             </a>
             <a href={CODEX_X_URL} target="_blank" rel="noopener noreferrer">
-              @codex check bot on X
+              {CODEX_X_HANDLE} check bot on X
             </a>
             <a href="/docs" onClick={(e) => { e.preventDefault(); go('/docs'); }}>
               Telegram bot
@@ -630,7 +630,7 @@ export const Shell: React.FC<ShellProps> = ({ currentPath, onNavigate, children 
             <a href="/agents/mcp" className="text-[var(--dim)] hover:text-[var(--ok)] no-underline" onClick={(e) => { e.preventDefault(); go('/agents/mcp'); }}>MCP</a>
             <a href="/agents/x402" className="text-[var(--dim)] hover:text-[var(--ok)] no-underline" onClick={(e) => { e.preventDefault(); go('/agents/x402'); }}>x402</a>
             <a href="/agents/plugins" className="text-[var(--dim)] hover:text-[var(--ok)] no-underline" onClick={(e) => { e.preventDefault(); go('/agents/plugins'); }}>SDKs</a>
-            <a href={CODEX_X_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--dim)] hover:text-[var(--ok)] no-underline">X (@codex)</a>
+            <a href={CODEX_X_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--dim)] hover:text-[var(--ok)] no-underline">X ({CODEX_X_HANDLE})</a>
           </div>
         </div>
       </footer>
