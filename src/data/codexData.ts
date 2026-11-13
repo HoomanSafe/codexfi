@@ -21,8 +21,8 @@ export interface CoinCheck {
   notes?: string[];
 }
 
-export const CODEX_CONTRACT = 'TBD';
-export const CODEX_CONTRACT_SHORT = 'TBD';
+export const CODEX_CONTRACT = '0x95cf439007742ba82fa96f878ee44597e4671e61';
+export const CODEX_CONTRACT_SHORT = '0x95cf8ee.....671e61';
 export const CODEX_LAUNCH_WALLET = '0x5388872a6bbb5fd94533a4dab2a7a1cab02fa5bc';
 export const CODEX_LAUNCH_WALLET_SHORT = '0x5388…a5Bc';
 export const CODEX_X_URL = 'https://x.com/CodexFi_';
