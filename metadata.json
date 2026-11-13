@@ -1,0 +1,6 @@
+{
+  "name": "CODEX",
+  "description": "CODEX is the safety layer for agentic finance on Robinhood Chain: checks before an AI agent buys, signs or pays. Who is behind a coin, whether its product is real, what a transaction really does and who a payment really goes to.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
